@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'Default' #replace if needed with name of your agent pool
 
 steps:
 - task: UseDotNet@2
